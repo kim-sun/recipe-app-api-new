@@ -44,6 +44,7 @@ class UserAdmin(BaseUserAdmin):
         }),
     )
 
+
 # need to pass UserAdmin or default User model would register
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Recipe)

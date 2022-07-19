@@ -1,7 +1,6 @@
 """
 Serializers for recipe APIs
 """
-from django.forms import models
 from rest_framework import serializers
 
 from core.models import (
